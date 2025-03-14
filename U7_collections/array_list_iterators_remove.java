@@ -14,12 +14,21 @@ public class array_list_iterators_remove {
 
     Iterator<Integer> it = lista.iterator();
 
+    // MAL HECHO
     while (it.hasNext()) {
-      Integer i = it.next();
-      if (i == 10) {
-        it.remove();
+      Integer i = it.next(); // fallo
+      if (i == 5) {
+        lista.remove(i);
       }
     }
+
+    // BIEN HECHO
+    //    while (it.hasNext()) {
+    //      Integer i = it.next();
+    //      if (i == 10) {
+    //        it.remove();
+    //      }
+    //    }
 
     Object[] array_de_enteros = lista.toArray();
     System.out.println(array_de_enteros[0]);

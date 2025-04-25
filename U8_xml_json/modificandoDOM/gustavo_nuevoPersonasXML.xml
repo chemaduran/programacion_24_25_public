@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+        texto0
+    
+    <!-- <!- - COMENTARIO AÑADIDO DESDE DOM - ->-->
+    <persona id="5">
+        <nombre>Gustavo Gallardo</nombre>
+        <edad>19</edad>
+    </persona>
+        texto1
+    
+    texto2
+    
+    <persona id="3">
+                
+        <nombre>Raul</nombre>
+                
+        <edad>22</edad>
+            
+    </persona>
+        texto3
+
+    <persona id="4">
+        <nombre>Gustavo Gallardo</nombre>
+        <edad>19</edad>
+    </persona>
+</personas>
